@@ -141,6 +141,7 @@ p{
 }
 
 .footerTxt{
+	font-size: 1rem;
 	padding: 0 30px;
 	color: var(--greyText);
 	height: 35vh;
@@ -172,4 +173,130 @@ p{
 	color: var(--greyText);
 	padding: 0 30px;
 	background-color: #06060d;
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Landscape */
+/*@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape){
+
+  	*/
+@media (min-width: 568px) { 
+
+  	#main{
+		background-position: 65vw 3vh, 0vw 15vh, top;
+		background-size: 50%, 75vw 65vh, 100%;
+	}
+
+  	.logoMain img{
+		width: 15%;
+	}
+
+	.containerr{
+		height: 150vh;
+		width: 70%;
+		justify-content: flex-start;
+	}
+
+	.hero{
+		height: 150vh;
+	}
+
+	.logoMain{
+		margin-top: 20px;
+	}
+
+	.heroText{
+		margin-top: 15px; 
+	}
+
+	.socialMain{
+		margin: 20px 0 20px 0;
+	}
+
+	.logo{
+		margin-bottom: 10px;
+		margin-top: 30px;
+	}
+
+	.logo img{
+		width: 15%;
+	}
+
+	.footerTxt{
+		font-size: 0.8rem;
+	}
+
+	.social{
+		margin: 25px 0 10px 0;
+	}
+
+}
+
+@media (min-width: 640px) { 
+	.menu {
+	    margin-top: 10px;
+	}
+}
+
+@media (min-width: 667px) { 
+	.menu {
+	    margin-top: 20px;
+	}
+
+	.footerTxt{
+		font-size: 0.95rem;
+	}
+}
+
+@media (min-width: 731px) { 
+	.menu {
+	    margin-top: 30px;
+	}
+}
+
+@media (min-width: 736px) { 
+	.menu {
+	    margin-top: 40px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	.containerr{
+		width: 60%;
+	}
+}
+
+@media (min-height: 667px) { 
+	.menu{
+		margin-top: 50px;
+	}
+}
+
+@media (min-height: 736px) { 
+	.menu {
+	    margin-top: 75px;
+	}
+}
+
+@media (min-width: 812px) { 
+	.menu {
+	    margin-top: 15px;
+	}
+}
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
 }
