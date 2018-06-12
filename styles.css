@@ -9,7 +9,11 @@ body{
 	background-color: white;
 }
 
-#main{
+.hide{
+	display: none;
+}
+
+.main{
 	overflow-x: hidden;
 	border-bottom: 10px solid var(--magenta);
 	background-image: -webkit-linear-gradient(45deg, #000030 0%,#345bac 44%,#8bb5ff 100%);
@@ -101,7 +105,8 @@ body{
 	border-bottom: 4px solid var(--magenta);
 }
 
-#socialMain a{
+#socialMain a,
+#socialFooter a{
 	margin-top: 15px;
 	color: white;
 }
